@@ -70,7 +70,6 @@ class Tree
     end
     path.unshift(node.data)
   end
-
 end
 
 def knight_moves(start, dest)
@@ -82,4 +81,4 @@ def knight_moves(start, dest)
   path.each{|square| print "#{square}\n"}
 end
 
-knight_moves([1,1], [8,8])
+knight_moves([3,3], [4,3])
