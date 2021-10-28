@@ -5,15 +5,12 @@ This program impements a function *knight_moves* that shows the simplest possibl
 The function uses Breadth First Search to determine the shortest path that would be take by the Knight
 
 ### Input: 
- > knight_moves([3,3],[4,3])
+ > knight_moves([3, 3],[4, 3])
 
  ### Output
 => You made it in 3 move(s)! Here's your path: 
 
 [3, 3]
-
 [5, 4]
-
 [3, 5]
-
 [4, 3]
