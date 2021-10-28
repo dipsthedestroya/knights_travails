@@ -78,7 +78,7 @@ def knight_moves(start, dest)
   t.print_tree
   path = t.path(dest)
   count = path.length - 1
-  puts "You made it in #{count} move(s)! Here's your path: "
+  puts "=> You made it in #{count} move(s)! Here's your path: "
   path.each{|square| print "#{square}\n"}
 end
 
