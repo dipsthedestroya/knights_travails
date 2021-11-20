@@ -32,7 +32,7 @@ class Tree
     until queue.empty?
       add_children_to_node(possible_move_increments, node, queue, added, cur_pos)
       queue.shift
-      node.children.each { |child| crubhild.parent = node }
+      node.children.each { |child| child.parent = node }
       node = queue[0]
       cur_pos = queue[0].data if queue[0]
     end
